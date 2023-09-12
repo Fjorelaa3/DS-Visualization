@@ -1,8 +1,9 @@
-This project is a visualization tool for three fundamental data structures: stacks, queues, and binary search trees (BSTs). The purpose of this project is to provide an interactive and visual representation of these data structures, allowing users to understand their operations and behavior.
+This project is a visualization tool for three fundamental data structures: stacks, queues, and binary search trees. The purpose of this project is to provide an interactive and visual representation of these data structures, allowing users to understand their operations and behavior.
 
 ![image](https://github.com/Fjorelaa3/DS-Visualization/assets/123838458/822b789f-0415-4fb2-9d58-3494ed3f713e)
 
-Features
+Features:
+
 Stack Visualization: Explore how items are added and removed from a stack using the Last-In-First-Out (LIFO) principle. Visualize the push and pop operations and observe the current state of the stack.
 ![image](https://github.com/Fjorelaa3/DS-Visualization/assets/123838458/cce7dfbf-367f-4912-99a0-d396f5777c24)
 
