@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Queue Visualization</title>
+  <link rel="stylesheet" href="../styles/styleQUEUE.css"> 
+</head>
+<body>
+  <div class="container">
+    <div class="queue-container">
+      <h1>Queue</h1>
+      <div id="queueBoxes" class="queue-boxes"></div>
+      <div class="queue-controls">
+        <input type="text" id="queueInput" placeholder="Enter element">
+        <button onclick="enqueue()">Enqueue</button>
+        <button onclick="dequeue()">Dequeue</button>
+        <button onclick="firstEl()">First</button>
+        <button onclick="clearQueue()">Clear</button>      
+        <button onclick="maxElement()">Max</button>    
+        <button onclick="minElement()">Min</button>    
+        <button onclick="search()">Search Element</button>      
+        <button onclick="remove()">Remove Element</button>   
+        <button onclick="random()">Random Queue</button>    
+      </div>
+    </div>
+  </div>
+  <script src="../scripts/queue.js"></script> 
+</body>
+</html>

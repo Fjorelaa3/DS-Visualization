@@ -1,0 +1,98 @@
+body {
+  background-image: url('../images/bc.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Jazz LET, fantasy;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.stack-container {
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(44, 163, 153, 0.1);
+  padding: 50px;
+  max-width: 500px;
+  width: 100%;
+}
+
+h1 {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 160px;
+  font-size: 70px;
+  color: rgb(5, 36, 83);
+  text-align: left;
+  font-weight: bold;
+  text-shadow: 0 0 5px #f7f3ef, 0 0 10px #fffdfb, 0 0 15px #f5f1ed;
+}
+
+h1 span {
+  display: block;
+}
+
+.stack-boxes {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: #e8e8e8;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.stack-boxes div {
+  width: 40px;
+  height: 40px;
+  background-color: #4253bd;
+  color: #cbeef1;
+  padding-top: 7px;
+  border-radius: 5px;
+  margin: 5px 0; 
+}
+
+.stack-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
+}
+
+.stack-controls input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.stack-controls button {
+  flex-shrink: 0;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #152380;
+  color: #cfd0db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.stack-controls button:hover {
+  background-color: #aed8ca;
+  color: #3d0891;
+}
+
+

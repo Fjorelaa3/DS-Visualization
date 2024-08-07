@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stack  Visualization</title>
+  <link rel="stylesheet" href="../styles/styleSTACK.css"> 
+<body>
+  <div class="container">
+    <div class="stack-container">
+      <h1>Stack</h1>
+      <div id="stackBoxes" class="stack-boxes"></div>
+      <div class="stack-controls">
+        <input type="text" id="stackInput" placeholder="Enter element">
+        <button onclick="pushToStack()">Push</button>
+        <button onclick="popFromStack()">Pop</button>
+        <button onclick="peekStack()">Peek</button>
+        <button onclick="clearStack()">Clear</button>
+        <button onclick="maxElement()">Max</button>    
+        <button onclick="minElement()">Min</button>    
+        <button onclick="search()">Search Element</button>      
+        <button onclick="remove()">Remove Element</button>   
+        <button onclick="random()">Random Stack</button> 
+      </div>
+    </div>
+  </div>
+  <script src="../scripts/stack.js"></script> 
+</body>
+</html>
